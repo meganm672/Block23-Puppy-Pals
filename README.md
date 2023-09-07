@@ -1,8 +1,17 @@
-# React + Vite
+# Puppy Pals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Shows a List of Puppies</br>
+* The application displays the name of each puppy in the browser.</br>
 
-Currently, two official plugins are available:
+* Featured Puppy Display</br>
+* The application correctly displays a featured puppy's information when a user clicks the puppy name from the list of names.</br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Error Free</br>
+* When you run the application, no error occurs that prevents the application from running.</br>
+
+* CSS</br>
+* Additional CSS styling is present in the application.</br>
+
+## here is my website:
+
+https://wonderful-tanuki-02fb55.netlify.app/ 
