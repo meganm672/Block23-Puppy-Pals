@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { puppyList } from './data.js'
 import './App.css'
+import './index.css'
 
 function App() {
 
@@ -13,17 +14,18 @@ function App() {
 
   return (
     <div className= "App">
+      <h1>Puppy List</h1>
       {
         puppies.map((puppy) => {
           return <p onClick={() => {setFeatPupId(puppy.id)}} key={puppy.id}>{puppy.name}</p>;
         })
       }
      { featPupId && (
-        <div>
+        <div className= "featPup">
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
-            <li>{featuredPup.email}</li>
+            <li>Email: {featuredPup.email}</li>
           </ul>
         </div>
      ) } 
