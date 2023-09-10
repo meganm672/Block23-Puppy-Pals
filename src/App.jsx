@@ -13,7 +13,7 @@ function App() {
   console.log(featuredPup);
 
   return (
-    <div className= "App">
+    <div className="App">
       <h1>Puppy List</h1>
       {
         puppies.map((puppy) => {
@@ -21,7 +21,7 @@ function App() {
         })
       }
      { featPupId && (
-        <div className= "featPup">
+        <div className="featPup">
           <h2>{featuredPup.name}</h2>
           <ul>
             <li>Age: {featuredPup.age}</li>
